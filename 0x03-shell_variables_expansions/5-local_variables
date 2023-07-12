@@ -1,0 +1,2 @@
+#!/bin/bash
+declare -p | grep -E '^declare -(l|r) [a-zA-Z_]+=' && echo && env | sort && echo && declare -F
