@@ -1,3 +1,3 @@
 #!/bin/bash
-set -o posix ; set | grep -E '^\w+=' && echo && env | sort && echo && declare -F
+set
 
